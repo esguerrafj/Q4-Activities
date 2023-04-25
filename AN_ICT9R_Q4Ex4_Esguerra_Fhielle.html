@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercise 4</title>
+</head>
+<body bgcolor="F9C5CE">
+     <center><h2>Convert Measurements</h2></center>
+     <center><p>Length Converter: Centimeter to Meter</p></center>
+     <div>
+     <center><form></center>
+      	  <center>Centimeter: <input type="number" id="num1" size="10">
+      	  <br><br>
+      	  <input type="Calculate" value="CALCULATE" onclick="Calculate()">
+      	  <input type="Cancel" value="CANCEL">
+
+      </form></center>
+      <center><img src="ruler.png"></center>
+  </div>
+
+      <script type="text/javascript">
+      	function Calculate(){
+      		let num1 = document.getElementById('num1').value;
+      		let quotient = num1 / 100;
+      		alert("In meters it is : " + quotient);
+      	}
+      </script>
+    
+
+</body>
+</html>
